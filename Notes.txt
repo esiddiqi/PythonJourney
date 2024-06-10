@@ -1,0 +1,67 @@
+Data Structure Provided by Python:
+
+1. List : [] - Values can be changed(Mutable) once they are created like using append(), Insert(), Remove Method
+2. Tuples: () - alues can not be changed (Immutable) once they cannot be changed
+3. Dictionaries: {} - {key: value},
+					- Keys are unique
+					- Can retrive the data using key inside sqauer bracket or using get
+					- Example:
+					    my_dict = {"name": "Emaad", "age": 25}
+						print(my_dict["name"])
+						
+4. Sets: {} - Sets do not have key value pair 
+			-(indivisual elements) and they do not accept duplicates.
+			- tuples can be accessed using index
+			- my_set = {1,2,3,4,5}
+			  print(3 in my_set)
+
+
+
+
+
+
+
+What are Lists in Python ( 2 Min Read) : 
+
+
+
+- List is 
+		- A data sructure used to store Collection of Items
+        - Are Ordered and Mutable (Means you can update the items once they are created), 
+		- Can contains elements of different data types as well as another lists
+		- Declared using [ ] and items within are separated by commas (,) and counted from 0, 1, 2 ... n
+
+Examples: 
+        my_list = [1, 2, 3, 4, 5]  # A list of integers
+		my_list2 = ["apple", "banana", "cherry"]  # A list of strings
+		mixed_list = [1, "apple", True, 3.14]  # A list of mixed data types
+		empty_list = []  # An empty list
+
+how to access items in list Lists ?
+        my_list = ["apple", "banana", "cherry"]
+        print(my_list[0])  # Output: apple
+        print(my_list[-1])  # Output: cherry
+		
+List operations: 
+   - Append: Add an element to the end of the list.
+   - Insert: Insert an element at a specific index.
+   - Remove: Remove the first occurrence of a specified value.
+   - Pop: Remove an element by index and return it.
+   - Extend: Add elements from another list to the end of the current list.
+   - Concatenation: Join two lists together.
+   - Slicing: Extract a sublist from the original list.
+   
+   Examples: 
+   
+      - my_list.append("date")
+      - my_list.insert(1, "banana")
+      - my_list.remove("apple")
+      - popped_element = my_list.pop(2)
+      - my_list.extend(["elderberry", "fig"])
+      - concatenated_list = my_list + my_list2
+      - sublist = my_list[1:4]
+
+   
+   
+	
+

@@ -1,0 +1,21 @@
+Data Structure Provided by Python:
+
+1. List : [] - Values can be changed(Mutable) once they are created like using append(), Insert(), Remove Method
+2. Tuples: () - alues can not be changed (Immutable) once they cannot be changed
+3. Dictionaries: {} - {key: value},
+					- Keys are unique
+					- Can retrive the data using key inside sqauer bracket or using get
+					- Example:
+					    my_dict = {"name": "Emaad", "age": 25}
+						print(my_dict["name"])
+						
+4. Sets: {} - Sets do not have key value pair 
+			-(indivisual elements) and they do not accept duplicates.
+			- They used for checking membershit
+			- my_set = {1,2,3,4,5}
+			  print(3 in my_set)
+
+
+
+
+
